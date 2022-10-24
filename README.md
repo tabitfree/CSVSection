@@ -6,7 +6,7 @@
 
 The user get to choose which type of service he wants using CSVSection based on the estimated number of hours spent on each service. User can input hourly wage and see what budget he can prepare. He can then generate the CSV with the options chosen.
 
-### CSV File INPUT
+### CSV File INPUT (example: src/files/test.csv)
 
 CSVSection is provided with 4 default columns.
 Name (string), Basic Graphics(number of hours), Hard Graphics(number of hours), Advanced Graphics(number of hours)
