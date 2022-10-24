@@ -1,0 +1,17 @@
+{
+  "uploadCSV": "Nahrát CSV",
+  "exportCSV": "Export CSV",
+  "perHour": "KČ/hod",
+  "hours": "hodin",
+  "inTotal": "KČ celkem.",
+  "csvTableHeaders": [
+    "Název",
+    "Triviální Grafika",
+    "Složitá Grafika",
+    "Pokročilá Grafika",
+    "Jiné"
+  ],
+  "marked": "-zvoleno",
+  "uploadFile": "Nahrát soubor",
+  "pleaseUpload": "Nahrajte csv soubor ve správném formátu, prosím"
+}

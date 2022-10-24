@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+# 1webit application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**ReactTS** application that shows functionality of implemented React component - CSVSection
 
-## Available Scripts
+## CSVSection
 
-In the project directory, you can run:
+The user get to choose which type of service he wants using CSVSection based on the estimated number of hours spent on each service. User can input hourly wage and see what budget he can prepare. He can then generate the CSV with the options chosen.
 
-### `yarn start`
+### CSV File INPUT
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+CSVSection is provided with 4 default columns.
+Name (string), Basic Graphics(number of hours), Hard Graphics(number of hours), Advanced Graphics(number of hours)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Menu,3,6,12
+Homepage,5,10,15
+Contact,4,8,9
 
-### `yarn test`
+Please provide a CSV file with 4 columns showed as it is showed above.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**NOTE:** CSV values can be divided by:**,**, **|**, **;** - without spaces
 
-### `yarn build`
+### CSV File OUTPUT
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+CSV values on output will be divided with **,** and the CSV File will contain one more column - OTHER - just in case you choose the "others" value.
