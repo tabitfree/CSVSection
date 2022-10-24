@@ -11,9 +11,11 @@ The user get to choose which type of service he wants using CSVSection based on 
 CSVSection is provided with 4 default columns.
 Name (string), Basic Graphics(number of hours), Hard Graphics(number of hours), Advanced Graphics(number of hours)
 
+```
 Menu,3,6,12
 Homepage,5,10,15
 Contact,4,8,9
+```
 
 Please provide a CSV file with 4 columns showed as it is showed above.
 
