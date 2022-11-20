@@ -1,4 +1,4 @@
-# 1webit application
+# CSVSection
 
 **ReactTS** application that shows functionality of implemented React component - CSVSection
 
